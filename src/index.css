@@ -15,3 +15,12 @@
   margin: -25px 0px 0px 70px;
 
 }
+
+main{
+  min-height: 82vh;
+}
+
+footer{
+  background-color: rgb(235, 197, 138);
+  padding: 10px;
+}
