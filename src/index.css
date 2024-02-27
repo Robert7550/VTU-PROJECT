@@ -35,3 +35,110 @@ marquee{
 .p-style{
   text-align: justify;
 }
+
+.carousel{
+  color: blue;
+}
+
+.btn1{
+  margin-top: 11.6rem;
+}
+
+
+
+/* About Us */
+
+/* Vision */
+
+#vision{
+  margin-left: 37rem;
+  margin-top: 15rem;
+}
+
+#img1{
+  margin-top: -13rem;
+}
+
+.vision{
+  margin-top: 5rem;
+  color: orange;
+}
+
+.p-vision{
+    margin-left: 1rem;
+}
+
+.img1{
+  margin-top: -10rem;
+  margin-left: -13.2rem;
+  height: 510px;
+}
+
+
+
+/* Mission */
+
+#mission{
+  margin-left: -11rem;
+  margin-right: 35rem;
+  margin-top: 11rem;
+}
+
+#img2{
+  margin-top: -21.5rem;
+  margin-left: 35rem;
+}
+
+
+.mission{
+  margin-top: 5rem;
+  color: orange;
+}
+
+.p-mission{
+  margin-left: 1rem;
+}
+
+.img2{
+  height: 520px;
+}
+
+
+
+/* Mandate */
+
+#mandate{
+  margin-left: 37rem;
+  margin-top: 8rem;
+}
+
+#img3{
+  margin-top: -17rem;
+}
+
+.mandate{
+  margin-top: 5rem;
+  color: orange;
+}
+
+.p-mandate{
+    margin-left: 1rem;
+}
+
+.img3{
+  margin-top: -10rem;
+  margin-left: -13rem;
+  height: 520px;
+}
+
+
+
+
+
+/* ExaminationGuidelines */
+
+.title{
+  margin-left: -3rem;
+  margin-top: 2rem;
+  color: orange;
+}

@@ -1,50 +1,86 @@
 import React from "react";
 import {Navbar,Nav,NavDropdown,Container,Image} from 'react-bootstrap';
-
+import {LinkContainer} from 'react-router-bootstrap';
 
 const Header = () =>{
     return(
         <>
             <Navbar className="nav-style" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#"> 
-                        <Image className="logo-img" 
-                        src="images/logo.jpg" alt="VTU" roundedCircle />
-                        <h6 className="logo-text">Visvesvaraya Technological University, Belagavi</h6>
-                    </Navbar.Brand>
+                    <LinkContainer to='/'>
+                        <Navbar.Brand href="/"> 
+                            <Image className="logo-img" 
+                            src="images/logo.jpg" alt="VTU" roundedCircle />
+                            <h6 className="logo-text">Visvesvaraya Technological University, Belagavi</h6>
+                        </Navbar.Brand>
+                    </LinkContainer>
+
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#link">About US</Nav.Link>
+
+                                <LinkContainer to='/'>
+                                    <Nav.Link href="/">Home</Nav.Link>
+                                </LinkContainer>
+
+                                <LinkContainer to='/about'>
+                                    <Nav.Link href="/about">About US</Nav.Link>
+                                </LinkContainer>
+
                                 <NavDropdown title="Academy" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#">Admission</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Circulars & Notification</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Certificate Issued</NavDropdown.Item>
+                                    <LinkContainer to='/admission'>
+                                        <NavDropdown.Item href="/admission">Admission</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to='/circulars/notification'>
+                                        <NavDropdown.Item href="/circulars/notification">Circulars & Notification</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to='/certificate issued'>
+                                        <NavDropdown.Item href="/certificate issued">Certificate Issued</NavDropdown.Item>
+                                    </LinkContainer>                               
                                 </NavDropdown>
 
                                 <NavDropdown title="Examination" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#">Examination Guidelines</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">examination application</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Results</NavDropdown.Item>
+                                    <LinkContainer to='/exam guidelines'>
+                                        <NavDropdown.Item href="/exam guidelines">Examination Guidelines</NavDropdown.Item>
+                                    </LinkContainer>
+                                    
+                                    <LinkContainer to='/exam application'>
+                                        <NavDropdown.Item href="/exam application">examination application</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to='/results'>
+                                        <NavDropdown.Item href="/results">Results</NavDropdown.Item>
+                                    </LinkContainer>
                                 </NavDropdown>
 
                                 <NavDropdown title="VTU Depatments" id="basic-nav-dropdown">
-                                    <NavDropdown.Item href="#">Aerospace Engineering</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Civil Engineering</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Computer Science and Engineering</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Management Studies</NavDropdown.Item>
-                                    <NavDropdown.Divider />
-                                    <NavDropdown.Item href="#">Mechanical Engineering</NavDropdown.Item>
+                                    <LinkContainer to=''>
+                                        <NavDropdown.Item href="#">Aerospace Engineering</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to=''>
+                                        <NavDropdown.Item href="#">Civil Engineering</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to=''>
+                                        <NavDropdown.Item href="#">Computer Science and Engineering</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to=''>
+                                        <NavDropdown.Item href="#">Management Studies</NavDropdown.Item>
+                                    </LinkContainer>
+
+                                    <LinkContainer to=''>
+                                        <NavDropdown.Item href="#">Mechanical Engineering</NavDropdown.Item>
+                                    </LinkContainer>
                                 </NavDropdown>
-                                <Nav.Link href="#">Staff login</Nav.Link>
+
+                                <LinkContainer to='/staff login'>
+                                    <Nav.Link href="/staff login">Staff login</Nav.Link>
+                                </LinkContainer>
+
                             </Nav>
                         </Navbar.Collapse>
                 </Container>
