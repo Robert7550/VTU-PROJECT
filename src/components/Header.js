@@ -42,16 +42,16 @@ const Header = () =>{
                                 </NavDropdown>
 
                                 <NavDropdown title="Examination" id="basic-nav-dropdown">
-                                    <LinkContainer to='/exam guidelines'>
-                                        <NavDropdown.Item href="/exam guidelines">Examination Guidelines</NavDropdown.Item>
+                                    <LinkContainer to='/exam-guidelines'>
+                                        <NavDropdown.Item href="/exam-guidelines">Examination Guidelines</NavDropdown.Item>
                                     </LinkContainer>
                                     
                                     <LinkContainer to='/exam application'>
-                                        <NavDropdown.Item href="/exam application">examination application</NavDropdown.Item>
+                                        <NavDropdown.Item href="/exam-application">Exam Application</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <LinkContainer to='/results'>
-                                        <NavDropdown.Item href="/results">Results</NavDropdown.Item>
+                                    <LinkContainer to='/result/loginpage'>
+                                        <NavDropdown.Item href="/result/loginpage">Results</NavDropdown.Item>
                                     </LinkContainer>
                                 </NavDropdown>
 

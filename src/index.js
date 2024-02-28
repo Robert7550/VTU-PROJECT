@@ -7,15 +7,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HomeScreen from './screen component/HomeScreen';
 import AboutUs from './screen component/AboutUs';
-import ExaminationGuidelines from './components/ExaminationGuidelines';
+import ExaminationGuidelines from './Examination Component/ExaminationGuidelines';
+import ResultLoginPage from './Examination Component/ResultLoginPage';
+import ResultPage from './Examination Component/ResultPage';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
-      <Route index = {HomeScreen} path='/' element={<HomeScreen/>} />
-      <Route path='/about' element={<AboutUs/>} />
-      <Route path='//exam guidelines' element={<ExaminationGuidelines/>} />
+      <Route path='/'index = {true}  element = {<HomeScreen/>} />
+      <Route path='/about' element = {<AboutUs/>} />
+      <Route path='/exam-guidelines' element = {<ExaminationGuidelines/>} />
+      <Route path='/result/loginpage' element = {<ResultLoginPage/>} />
+      <Route path='/resultpage' element = {<ResultPage/>} />
+
     </Route>
   )
 )
