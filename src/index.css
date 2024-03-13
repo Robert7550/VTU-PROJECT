@@ -146,3 +146,178 @@ marquee{
 tr{
   text-align: center;
 }
+
+
+
+/* AerospaceEngineering */
+
+.aerospace{
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: -13rem;
+  text-align: center;
+}
+
+.aerospace1{
+  display: inline;
+  text-decoration: none;
+}
+
+.aerospace1 li{
+  color: orange;
+  padding: 8px;
+}
+
+
+.aerospace-heading{
+  width: 97%;
+  margin-left: 15rem;
+  margin-top: -28rem;
+}
+
+.aerospace-heading h4{
+  color: orange; 
+}
+
+.aerospace-heading img{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.aerospace-heading p{
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+
+/* AppliedScience */ 
+
+.science{
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: -13rem;
+  text-align: center;
+}
+
+.science1{
+  display: inline;
+  text-decoration: none;
+}
+
+.science1 li{
+  color: orange;
+  padding: 8px;
+}
+
+
+.science-heading{
+  width: 97%;
+  margin-left: 15rem;
+  margin-top: -21rem;
+}
+
+.science-heading h4{
+  color: orange; 
+}
+
+.science-heading img{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.science-heading p{
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+
+
+/* CivilEngineering,  ManagementStudies */
+
+.civil{
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: -13rem;
+  text-align: center;
+}
+
+.civil1{
+  display: inline;
+  text-decoration: none;
+}
+
+.civil1 li{
+  color: orange;
+  padding: 8px;
+}
+
+
+.civil-heading{
+  width: 97%;
+  margin-left: 15rem;
+  margin-top: -34rem;
+}
+
+.civil-heading h4{
+  color: orange; 
+}
+
+.civil-heading img{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.civil-heading p{
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+
+
+/* MechanicalEngineering */
+
+.mechanical{
+  width: 40%;
+  margin-top: 5rem;
+  margin-left: -13rem;
+  text-align: center;
+}
+
+.mechanical1{
+  display: inline;
+  text-decoration: none;
+}
+
+.mechanical1 li{
+  color: orange;
+  padding: 8px;
+}
+
+
+.mechanical-heading{
+  width: 97%;
+  margin-left: 15rem;
+  margin-top: -39rem;
+}
+
+.mechanical-heading h4{
+  color: orange; 
+}
+
+.mechanical-heading img{
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px;
+  margin-top: 2rem;
+  width: 30%;
+}
+
+.mechanical-heading p{
+  text-align: justify;
+  margin-top: 2rem;
+}

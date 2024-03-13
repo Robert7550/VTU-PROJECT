@@ -56,29 +56,29 @@ const Header = () =>{
                                 </NavDropdown>
 
                                 <NavDropdown title="VTU Depatments" id="basic-nav-dropdown">
-                                    <LinkContainer to=''>
-                                        <NavDropdown.Item href="#">Aerospace Engineering</NavDropdown.Item>
+                                    <LinkContainer to='/aerospace-engineering'>
+                                        <NavDropdown.Item href="/aerospace-engineering">Aerospace Engineering</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <LinkContainer to=''>
-                                        <NavDropdown.Item href="#">Civil Engineering</NavDropdown.Item>
+                                    <LinkContainer to='/applied-science'>
+                                        <NavDropdown.Item href="/applied-science">Applied Science</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <LinkContainer to=''>
-                                        <NavDropdown.Item href="#">Computer Science and Engineering</NavDropdown.Item>
+                                    <LinkContainer to='/civil-engineering'>
+                                        <NavDropdown.Item href="/civil-engineering">Civil Engineering</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <LinkContainer to=''>
-                                        <NavDropdown.Item href="#">Management Studies</NavDropdown.Item>
+                                    <LinkContainer to='/management-studies'>
+                                        <NavDropdown.Item href="/management-studies">Management Studies</NavDropdown.Item>
                                     </LinkContainer>
 
-                                    <LinkContainer to=''>
-                                        <NavDropdown.Item href="#">Mechanical Engineering</NavDropdown.Item>
+                                    <LinkContainer to='/mechanical-engineering'>
+                                        <NavDropdown.Item href="/mechanical-engineering">Mechanical Engineering</NavDropdown.Item>
                                     </LinkContainer>
                                 </NavDropdown>
 
-                                <LinkContainer to='/staff login'>
-                                    <Nav.Link href="/staff login">Staff login</Nav.Link>
+                                <LinkContainer to='/staff/login'>
+                                    <Nav.Link href="/staff/login">Staff login</Nav.Link>
                                 </LinkContainer>
 
                             </Nav>

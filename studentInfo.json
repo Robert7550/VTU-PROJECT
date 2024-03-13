@@ -1,42 +1,42 @@
 {
     "studentInfo":[
         {
-           "-id":1,
-           "Register Id":"1TVUBBA001",
-           "Student Nmae":"Robert", 
-           "Father Name":"John",
+           "_id":1,
+           "RegisterId":"1TVUBBA001",
+           "Student_Name":"Robert", 
+           "Father_Name":"John",
            "College":"Don Bosco College"
         },
 
         {
-            "-id":2,
-            "Register Id":"1TRVBCOM001",
-            "Student Nmae":"Alex", 
-            "Father Name":"Jerin",
+            "_id":2,
+            "RegisterId":"1TRVBCOM001",
+            "Student_Name":"Alex", 
+            "Father_Name":"Jerin",
             "College":"Don Bosco College"
          },
 
          {
-            "-id":3,
-            "Register Id":"1TRVBCA001",
-            "Student Nmae":"Vimal", 
-            "Father Name":"John Britto",
+            "_id":3,
+            "RegisterId":"1TRVBCA001",
+            "Student_Name":"Vimal", 
+            "Father_Name":"John Britto",
             "College":"Don Bosco College"
          },
 
          {
-            "-id":4,
-            "Register Id":"1TRVBCS001",
-            "Student Nmae":"Vignesh", 
-            "Father Name":"Vishal",
+            "_id":4,
+            "RegisterId":"1TRVBCS001",
+            "Student_Name":"Vignesh", 
+            "Father_Name":"Vishal",
             "College":"Don Bosco College"
          },
 
          {
-            "-id":5,
-            "Register Id":"1TRVCEN001",
-            "Student Nmae":"Rahul", 
-            "Father Name":"Vamshi",
+            "_id":5,
+            "RegisterId":"1TRVCEN001",
+            "Student_Name":"Rahul", 
+            "Father_Name":"Vamshi",
             "College":"Don Bosco College"
          }
     ]

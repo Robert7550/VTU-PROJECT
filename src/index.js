@@ -10,6 +10,12 @@ import AboutUs from './screen component/AboutUs';
 import ExaminationGuidelines from './Examination Component/ExaminationGuidelines';
 import ResultLoginPage from './Examination Component/ResultLoginPage';
 import ResultPage from './Examination Component/ResultPage';
+import Stafflogin from './staffcomponent/StaffLogin';
+import AerospaceEngineering from './VTUdepartmentcomponents/AerospaceEngineering';
+import AppliedScience from './VTUdepartmentcomponents/AppliedScience';
+import CivilEngineering from './VTUdepartmentcomponents/CivilEngineering';
+import ManagementStudies from './VTUdepartmentcomponents/ManagementStudies';
+import MechanicalEngineering from './VTUdepartmentcomponents/MechanicalEngineering';
 
 
 const router = createBrowserRouter(
@@ -19,8 +25,13 @@ const router = createBrowserRouter(
       <Route path='/about' element = {<AboutUs/>} />
       <Route path='/exam-guidelines' element = {<ExaminationGuidelines/>} />
       <Route path='/result/loginpage' element = {<ResultLoginPage/>} />
-      <Route path='/resultpage' element = {<ResultPage/>} />
-
+      <Route path='/resultpage/:id' element = {<ResultPage/>} />
+      <Route path='/staff/login' element= {<Stafflogin/>} />
+      <Route path='/aerospace-engineering' element = {<AerospaceEngineering/>} />
+      <Route path='/applied-science' element = {<AppliedScience/>} />
+      <Route path='/civil-engineering' element = {<CivilEngineering/>} />
+      <Route path='/management-studies' element = {<ManagementStudies/>} />
+      <Route path='/mechanical-engineering' element = {<MechanicalEngineering/>} />
     </Route>
   )
 )
