@@ -1,0 +1,43 @@
+{
+    "studentInfo":[
+        {
+           "-id":1,
+           "Register Id":"1TVUBBA001",
+           "Student Nmae":"Robert", 
+           "Father Name":"John",
+           "College":"Don Bosco College"
+        },
+
+        {
+            "-id":2,
+            "Register Id":"1TRVBCOM001",
+            "Student Nmae":"Alex", 
+            "Father Name":"Jerin",
+            "College":"Don Bosco College"
+         },
+
+         {
+            "-id":3,
+            "Register Id":"1TRVBCA001",
+            "Student Nmae":"Vimal", 
+            "Father Name":"John Britto",
+            "College":"Don Bosco College"
+         },
+
+         {
+            "-id":4,
+            "Register Id":"1TRVBCS001",
+            "Student Nmae":"Vignesh", 
+            "Father Name":"Vishal",
+            "College":"Don Bosco College"
+         },
+
+         {
+            "-id":5,
+            "Register Id":"1TRVCEN001",
+            "Student Nmae":"Rahul", 
+            "Father Name":"Vamshi",
+            "College":"Don Bosco College"
+         }
+    ]
+}

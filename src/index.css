@@ -142,3 +142,7 @@ marquee{
   margin-top: 2rem;
   color: orange;
 }
+
+tr{
+  text-align: center;
+}
